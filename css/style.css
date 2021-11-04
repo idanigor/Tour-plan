@@ -349,3 +349,7 @@ template {
 a {
   text-decoration: none;
 }
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
