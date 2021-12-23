@@ -6,6 +6,9 @@
 		justify-content: space-between
 		padding-top: 40px
 		padding-bottom: 40px
+	&__search
+		margin-left: 108px
+		margin-right: auto
 .search
 	display: flex
 	position: relative
@@ -16,19 +19,32 @@
 		width: 350px
 		height: 100%
 		padding-left: 23px
+		padding-right: 75px
 		background-color: #F5FAFE
 		border-radius: 6px
 		border: none
 		font-size: 12px
 		line-height: 15px
-		color: #333333
-
+		color: $text-color
+	
 	&__button
 		position: absolute
 		height: 100%
 		width: 65px
 		top: 0
 		right: 0
-		
-
-
+		border: none
+		background-color: $primary
+.user
+	display: flex
+	align-items: center
+	&__avatar
+		width: 40px
+		height: 40px
+		border-radius: 50%
+		object-fit: cover
+	&__name
+		margin-left: 18px
+		font-size: 14px
+		line-height: 18px
+		color: $text-color

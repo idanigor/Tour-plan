@@ -352,6 +352,7 @@ a {
 
 body {
   font-family: 'Mulish', sans-serif;
+  color: #333333;
 }
 
 .container {
@@ -377,6 +378,11 @@ body {
   padding-bottom: 40px;
 }
 
+.header__search {
+  margin-left: 108px;
+  margin-right: auto;
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,6 +397,7 @@ body {
   width: 350px;
   height: 100%;
   padding-left: 23px;
+  padding-right: 75px;
   background-color: #F5FAFE;
   border-radius: 6px;
   border: none;
@@ -405,4 +412,30 @@ body {
   width: 65px;
   top: 0;
   right: 0;
+  border: none;
+  background-color: #EC1F46;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user__name {
+  margin-left: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
 }
